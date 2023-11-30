@@ -1,5 +1,6 @@
 ﻿namespace Tasks1_3.Vehicles;
 
+[Serializable]
 public class Car : Vehicle
 {
     public bool HasAirConditioner { get; protected set; } = true;

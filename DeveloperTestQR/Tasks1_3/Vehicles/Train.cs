@@ -1,5 +1,6 @@
 ﻿namespace Tasks1_3.Vehicles;
 
+[Serializable]
 public class Train : Vehicle
 {
     public bool HasRestaurant { get; protected set; } = false;
